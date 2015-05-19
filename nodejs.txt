@@ -1,0 +1,27 @@
+nodejs is useful to make server-side applications(chat apps,social network apps)
+create app.js.This is starting point of any nodejs application.
+
+nodejs code will run on the server.
+
+setTimeout(function_name,time)
+
+module.exports={
+avatar:function()
+{
+console.log("ki");
+}
+}
+
+var ex=require("./movies");
+ex.avatar();
+
+object factory means object creates another object.
+
+For custom modules --
+var ex=require("./movies");
+
+For core module---
+var ex=require("movies");
+
+var http=require("http");
+http.createServer(onRequest).listen(8888);
